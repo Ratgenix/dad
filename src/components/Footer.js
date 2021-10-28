@@ -6,6 +6,7 @@ function Footer() {
     return (        
     <div className = "footer">
     <div className="columns">
+        
     <div className="column-1">
         <h3>About</h3>
         <ul className="col1">     
@@ -14,7 +15,7 @@ function Footer() {
         <li><a href='/'>About Us</a></li>
         </ul>
         </div>
-
+    
     <div className="column-4">
     <img src={logo}></img>
         <ul className="col4">
@@ -30,7 +31,7 @@ function Footer() {
     <div className="copyright-info">
                     <hr/>
                     <p className="col-sm">
-                        &copy;{new Date().getFullYear()} Carden Robotics Inc. | All rights reserved | TOS | Privacy Policy 
+                        &copy;{new Date().getFullYear()} Carden Robotics Inc. | All rights reserved
                     </p>
                     </div>
 

@@ -162,6 +162,7 @@ Nav{
 
 .footer{
     background-color: black !important;
+    vertical-align: top;
     
 }
 ul{
@@ -181,13 +182,15 @@ ul{
     float:left;
     padding-left: 5%;
     padding-top: 3vh;
+    display: none;
 }
 
 .column-4{
-    width: 45%;
-    float:left;
+   margin-left: auto;
+   margin-right:auto;
+    width: 50%;
+    display: block;
 
-    padding-right: 5%;
    
 }
 .column-4 a{
@@ -205,8 +208,9 @@ ul{
 .copyright-info{
     flex:auto;
     color: white;
-    padding-top:200px;
+    padding-top:5vh;
     padding-bottom: 25px;
+    vertical-align: top;
     
 }
 .c-box{
@@ -256,6 +260,10 @@ div#message.form-group>textarea.form-control{
     height:20vh;
     
     
+}
+.footer hr{
+    margin-left: 30%;
+    margin-right:30%;
 }
 
 .signin-container{
@@ -308,11 +316,17 @@ svg.email-ico{
     }
     .column-1{
         padding-left: 0;
+        display: none;
     }
 
     .column-4{
-        width:50%;
-        padding-right:3vh;
+        
+        
+        margin-bottom: auto;
+        margin-left:auto !important;
+        display: block;
+
+
     }
     .col4{
         margin-left: -15px;
