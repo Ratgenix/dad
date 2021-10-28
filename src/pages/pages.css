@@ -1,0 +1,116 @@
+.home-body{
+    margin-left:3vh;
+    margin-right:3vh;
+    padding-top: 1vh;
+    
+}
+
+.exp-body{
+    margin-left:3vh;
+    margin-right:3vh;
+    padding-top: 1vh;
+    padding-bottom:7vh;
+}
+.exp-list{
+    text-align: center;
+}
+.production{
+    width:33%;
+    float:left;
+}
+.year{
+    width: 33%;
+    float:left;
+}
+.location{
+    width:33%;
+    float: left;
+}
+.c-box-body{
+    float: left;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: flex;
+}
+.home-body{
+    
+}
+.home-1{
+    align-items: center;
+    padding-bottom: 3vh;
+    
+
+}
+.table{
+    display: grid;
+    font-weight: 100 !important;
+    text-align: center;
+    margin-left:-3vh;
+    
+    
+}
+table{
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: lightgray;
+
+
+}
+th{
+
+padding-bottom: 1vh !important;
+}
+
+.table-body{
+    font-weight: lighter ;
+
+}
+.services Button{
+    float:right;
+    margin-top: -7vh;
+    margin-right: 3vh;
+    font-size: large;
+    background-color:transparent;
+    border-color: transparent;
+   
+   }
+   .services Button:hover{
+    color:darkgray;
+   
+   }
+.services-list ul{
+    text-decoration: solid;
+    list-style-type: circle;
+   
+}
+tr.table-head:hover{
+   background-color: whitesmoke !important;
+   margin-left: 10vh !important;
+}
+
+.services-list{
+    display: inline-flex;
+    padding-left:1vh;
+    float:center;
+}
+.services-main{
+    padding-bottom: 4vh;
+    padding-top: 1vh;
+}
+.services{
+    margin-left: 3vh;
+    padding-top: 2vh;
+}
+.weld2{
+    margin-left: 10vh !important;
+    margin-top: .2vh;
+    float:left;
+}
+.weld1{
+    float: left;
+    margin-left: 1vh;
+}
+.services-sub{
+   display: block;
+}

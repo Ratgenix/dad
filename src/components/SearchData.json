@@ -1,0 +1,56 @@
+[
+    {
+    "title":"Home",
+    "desc":"Title page of CDR",
+    "link":"/",
+    "more":"title"
+    },
+    {
+    "title":"Services",
+    "desc":"Check out all of the services offered at Carden Robotics!",
+    "link":"/services",
+    "more":"all"
+    },
+    {
+        "title":"Robot Programming",
+        "desc":"CDR's robot programming",
+        "link":"/robots",
+        "more":"programming"
+    },
+    {
+        "title":"Weld Support",
+        "desc":"CDR's welding support",
+        "link":"/weld",
+        "more":"welding"
+    },
+    {
+        "title":"Controls Design",
+        "desc":"Title page of CDR",
+        "link":"/controls",
+        "more":"design"
+    },
+    {
+        "title":"Start-Up and Debug",
+        "desc":"Title page of CDR",
+        "link":"/start-up",
+        "more":"debug"
+    },
+    {
+        "title":"Experience",
+        "desc":"CDR's massive list of experience in the auto industry",
+        "link":"/experience",
+        "more":"references"
+    },
+    {
+        "title":"Training",
+        "desc":"...",
+        "link":"/training",
+        "more":"..."
+    },
+    {
+        "title":"Contact",
+        "desc":"Get in touch with CDR",
+        "link":"/contact",
+        "more":"employment"
+    }
+]

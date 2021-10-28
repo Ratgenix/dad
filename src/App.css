@@ -1,7 +1,29 @@
 .App {
   text-align: center;
 }
+.site-wrapper{
 
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-image: url("website-bg.jpg");
+}
+
+.page-container{
+  clear:both;
+  background-color: whitesmoke;
+
+  flex: auto;
+  height: auto !important;
+  padding-bottom: 1px;
+  margin-left:5vh;
+  margin-right:5vh;
+  margin-bottom: 5vh;
+}
+.lol{
+  background-color: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +34,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@font-face { 
+  font-family:'Roboto';
+  font-style:normal;
+  font-weight:300;
+  src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  } 
 
 .App-header {
   background-color: #282c34;
