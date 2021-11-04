@@ -4,9 +4,10 @@ import ContactBox from '../components/ContactBox'
 
 function training() {
     return (
-        <div className="services-main">
+        <>
         <div className='c-box-body'>
         <ContactBox/></div>
+        <div className="services-main">
             <h1>Training</h1>
             <hr/>
             <p>Carden Robotics has been trained in many areas to help improve what the company can do, safely and effectively.
@@ -23,6 +24,7 @@ function training() {
             <br/>
             <br/>
         </div>
+        </>
     )
 }
 

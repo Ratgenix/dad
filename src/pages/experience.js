@@ -5,9 +5,10 @@ import './pages.css'
 function experience() {
     return (
 
-        <div className='exp-body'>
+        <>
             <div className='c-box-body'>
             <ContactBox/></div>
+            <div className='exp-body'>
             <h1>Experience</h1>
             <hr/>
             <p>Our knowledgeable and vast team of engineers and technicians across multiple continents means your systems are in the hands of the most skilled, capable and qualified professionals.
@@ -225,8 +226,9 @@ function experience() {
                     </tbody>
                 </table>
             </div>
-
+        
         </div>
+        </>
     )
 }
 

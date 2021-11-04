@@ -80,8 +80,8 @@ padding-bottom: 1vh !important;
    
    }
 .services-list ul{
-    text-decoration: solid;
-    list-style-type: circle;
+    text-decoration: solid !important;
+    list-style-type: circle !important;
    
 }
 tr.table-head:hover{
@@ -113,4 +113,38 @@ tr.table-head:hover{
 }
 .services-sub{
    display: block;
+}
+@media screen and (max-width: 600px) {
+    .services-list ul{
+        text-decoration: solid !important;
+        list-style-type: circle !important;
+       text-align: left !important;
+    }
+    .services-main{
+        padding:2vh;
+    }
+    .services{
+        padding: 2vh;
+    }
+    .services-list{
+
+        display: inline-block;
+
+    }
+    .services hr{
+        display:none;
+    }
+    .weld1{
+        margin:auto !important;
+        text-align: center;
+
+        display: inline-block;
+    }
+    .weld2{
+        margin:auto !important;
+        text-align: center;
+        vertical-align: top;
+        display: inline-block;
+        
+    }
 }

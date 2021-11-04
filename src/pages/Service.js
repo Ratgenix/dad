@@ -63,7 +63,7 @@ const Servie = () => {
             <div className='services-main'>
 
                 <p>One of Carden Robotics' area of expertice is in robot programming.
-                    The Carden Robotics team has worked on various projects such as [blah and blah] in this field.
+                    The Carden Robotics team has worked on various projects in this field.
                 </p>
     
                 <div className="services-list">
@@ -130,9 +130,10 @@ const Servie = () => {
     
 
     return (
-        <div className='services'>
-                                        <div className='c-box-body'>
+        <>
+            <div className='c-box-body'>
             <ContactBox/></div>
+            <div className='services'>
             <h1>Services</h1>
             <p>Carden Robotics' incredibly talented team of engineers, welders and more excel in many areas such as:
                 robotics programming, welding, designing controllers and debugging!</p>
@@ -156,6 +157,7 @@ const Servie = () => {
             {start && <Start/>}
             </div>
         </div>
+        </>
     )
 }
 

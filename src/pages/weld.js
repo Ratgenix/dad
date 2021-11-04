@@ -2,9 +2,10 @@ import React from 'react'
 import ContactBox from '../components/ContactBox'
 function weld() {
     return (
-        <div className='services-main'>
+        <>
                             <div className='c-box-body'>
             <ContactBox/></div>
+            <div className='services-main'>
             <h1>Weld Support</h1>
             <hr/>
             <p>One of Carden Robotics' area of expertice is in robot programming.
@@ -33,6 +34,7 @@ function weld() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

@@ -3,9 +3,10 @@ import ContactBox from '../components/ContactBox'
 import './pages.css'
 function controls() {
     return (
-        <div className="services-main">
+        <>
                             <div className='c-box-body'>
             <ContactBox/></div>
+            <div className="services-main">
             <h1>Controls Design</h1>
             <hr/>
             <p>One of Carden Robotics' area of expertice is in robot programming.
@@ -21,6 +22,7 @@ function controls() {
             </ul>
             </div>
         </div>
+        </>
     )
 }
 

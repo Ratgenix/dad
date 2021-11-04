@@ -165,6 +165,10 @@ Nav{
     vertical-align: top;
     
 }
+.footer a{
+    color:#f17236;
+
+}
 ul{
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
@@ -298,7 +302,18 @@ svg.email-ico{
     padding-left:2vh;
 }
 @media screen and (max-width: 600px) {
-
+.address-phone{
+    display: none;
+}
+.poop{
+    display:none;
+}
+.col-sm{
+    padding-left: 1vh;
+}
+.header{
+    padding-bottom: 15vh;
+}
     .footer{
        
     }
@@ -346,6 +361,7 @@ svg.email-ico{
     }
     .search{
         margin-bottom: 5vh;
+        display: none;
     }
     .logo-head {
         width: fit-content;

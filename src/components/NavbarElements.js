@@ -17,7 +17,7 @@ text-align:center;
 @media screen and (max-width:768px){
     display:none;
     width: 10vw;
-    
+    overflow:hidden !important;
 }
 
 `
@@ -50,15 +50,26 @@ align-items:center;
 
 export const Bars = styled(FaBars)`
 display:none;
-color:orange;
+color:#f17236;
+
 @media screen and (max-width:768px){
+    z-index:999;
     display:block;
-    position:absolute;
-    height:17vh;
-    right:0;
-    transform:translate(-100%, 75%);
-    font-size:1.8rem;
+    box-sizing: content-box;
+
+    height:6vh;
+    margin-top:-10vh;
+    margin-bottom:1vh;
+
+    margin-left:26.5vh;
+    
+    font-size:20rem;
     cursor:pointer;
+    background-color:lightred;
+    border-radius:3vh;
+
+
+    overflow:hidden !important;
 }
 `
 

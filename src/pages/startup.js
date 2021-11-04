@@ -3,9 +3,10 @@ import ContactBox from '../components/ContactBox'
 import './pages.css'
 function startup() {
     return (
-        <div className='services-main'>
+        <>
                             <div className='c-box-body'>
             <ContactBox/></div>
+            <div className='services-main'>
             <h1>Start-Up & Debug</h1>
             <hr/>
             <p>Carden Robotics' talented team has performed start-up and debugging to find the root cause of
@@ -22,6 +23,7 @@ function startup() {
             </div>
             
         </div>
+        </>
     )
 }
 

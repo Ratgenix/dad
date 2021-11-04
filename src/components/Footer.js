@@ -31,7 +31,7 @@ function Footer() {
     <div className="copyright-info">
                     <hr/>
                     <p className="col-sm">
-                        &copy;{new Date().getFullYear()} Carden Robotics Inc. | All rights reserved
+                        &copy;{new Date().getFullYear()} Carden Robotics Inc. | All rights reserved <span className='poop'>||</span> Provided by <a href="https://ratgenix.com">ratgenix solutions</a>
                     </p>
                     </div>
 
